@@ -38,7 +38,10 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "react-styleguidist": "^13.1.1",
+    "webpack": "^5.88.2"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
