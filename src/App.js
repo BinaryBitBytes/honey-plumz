@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import nav from './components/nav';
-
+import Cards from './components/Products/cards';
+import Products from './components/Products/products';
+import resetPass from './components/Authentication/resetPass';
 function App() {
   return (
     <div className="App"> 

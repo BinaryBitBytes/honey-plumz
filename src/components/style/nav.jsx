@@ -5,6 +5,9 @@ export default function nav() {
                 <div>
                     <nav>
                         Home
+                        <br>
+                        </br>
+                        <Products></Products>
                     </nav>
                 </div>
             </section>
