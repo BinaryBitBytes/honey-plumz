@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import nav from './components/nav';
+import Cards from './components/Products/cards';
+import Products from './components/Products/products';
+import resetPass from './components/Authentication/resetPass';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+    <>
+      <nav />
+    </>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, Welcome to HoneyPlumz
         </p>
         <a
           className="App-link"
@@ -15,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Honey Plumz
         </a>
       </header>
     </div>
