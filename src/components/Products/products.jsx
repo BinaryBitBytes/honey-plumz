@@ -1,5 +1,7 @@
+import { Fragment } from "react"
+
 export default function Products() {
     return(
-        Products.this.props
+        <Fragment><h1>Testing Products Element</h1></Fragment>
     )
 }

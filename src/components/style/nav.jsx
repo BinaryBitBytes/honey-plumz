@@ -1,4 +1,5 @@
-export default function nav() {
+import Products from '../Products/Products.jsx'
+export default function Nav() {
     return (
         <div>
             <section>

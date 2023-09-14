@@ -1,8 +1,15 @@
+//! Base React Packages
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//! Supporting Technologies
+import 'bootstrap'
+// //! Components
+// import Nav from './components/style/Nav.jsx';
+// import Cards from './components/Products/Cards.jsx';
+// import resetPass from './components/Authentication/resetPass.jsx';
+// import CartButton from './components/Products/CartButton.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
