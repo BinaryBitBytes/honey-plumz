@@ -2,7 +2,7 @@
 
 // Possible Technology for reading files below:
 // (1) // import { readFileSync } from "fs"
-import vapeImages from '../pics/';
+import vapeImages from '../pics/vapeImages.js';
 
 // cards are used for the products
 // each card will access a file in the public/style folder

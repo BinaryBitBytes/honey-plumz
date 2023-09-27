@@ -1,5 +1,7 @@
 import React from "react"
 
-function image(){
-<img src="..//image.jpg" alt="image" />
+function vapeImages(){
+<img src="../pics/" alt="vapes" />
 }
+
+export default vapeImages;

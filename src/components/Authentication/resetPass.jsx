@@ -1,5 +1,7 @@
-export default function resetPass() {
+function resetPass() {
     return (
         resetPass.this.props
     )
 }
+
+export default resetPass;

@@ -1,5 +1,7 @@
-export default function signOutButton() {
+function signOutButton() {
     return (
         signOutButton.this.props
     )
 }
+
+export default signOutButton;
