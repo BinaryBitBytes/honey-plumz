@@ -14,7 +14,7 @@ function Cards() {
         <div>
           {vapeImages.map((image, index) => (
             <div key={index}>
-              <img src={image} alt={`Vape ${index + 1}`} /> 
+              <img src={image} alt={`Vape ${index + 1}`} />
               {/* You can add more information about each product */}
             </div>
           ))}
