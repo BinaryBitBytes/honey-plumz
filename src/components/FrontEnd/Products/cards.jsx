@@ -1,33 +1,26 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+
 // Possible Technology for reading files below:
 // (1) // import { readFileSync } from "fs"
-import pictures from '../../../../public/style/Pic/Vapes'
+import vapeImages from '../pics/';
 
 // cards are used for the products
 // each card will access a file in the public/style folder
 // each product is sub-categorized in its respected folder based on chemical makup
 
-function Cards(pictures) {
-  const [files, setFiles] = useState([]);
-
-  const handleFileChange = (event) => {
-    const selectedFiles = event.target.files;
-    setFiles([...files, ...selectedFiles]);
-  };
-
-  return (
-    <div>
-      <input type="file" multiple onChange={handleFileChange} />
+function Cards() {
+    return (
       <div>
-        {files.map((file, index) => (
-          <div key={index}>
-            <h3>{file.name}</h3>
-            <p>Size: {file.size} bytes</p>
-          </div>
-        ))}
+        <div>
+          {vapeImages.map((image, index) => (
+            <div key={index}>
+              <img src={image} alt={`Vape ${index + 1}`} />
+              {/* You can add more information about each product */}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 
 export default Cards;

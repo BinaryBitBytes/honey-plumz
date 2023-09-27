@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import nav from './components/nav';
-import Cards from './components/Products/cards';
-import Products from './components/Products/products';
-import resetPass from './components/Authentication/resetPass';
+import Navbar from './components/FrontEnd/NavBar.jsx';
+import Cards from './components/FrontEnd/Products/cards.jsx';
+import Products from './components/FrontEnd/Products/products.jsx';
+// import resetPass from './components/Authentication/resetPass';
 
 function App() {
   return (
     <div className="App"> 
     <>
-      <nav />
+      <Navbar />
     </>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -25,6 +25,15 @@ function App() {
         Honey Plumz
         </a>
       </header>
+      <body>
+        <div>
+          <Cards /> 
+            <div>
+              <Products />
+            </div>
+
+        </div>
+      </body>
     </div>
   );
 }
