@@ -10,7 +10,7 @@ function Cards() {
   // You can update the images whenever `vapeImages` changes
   useEffect(() => {
     setImages(vapeImages);
-  }, [vapeImages]);
+  }, []);
 
   return (
     <div className="card-container">
