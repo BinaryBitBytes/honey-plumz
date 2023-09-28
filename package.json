@@ -16,7 +16,7 @@
     "is-buffer": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "run-parallel": "^1.2.0",
     "typescript": "^5.2.2",
