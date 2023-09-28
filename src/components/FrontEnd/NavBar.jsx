@@ -8,7 +8,7 @@ function Navbar() {
           <Link to="./pages/index.html">Home</Link>
           <NavLink to="/about" activeClassName="active">Home</NavLink>
           <Link to="./pages/about.html">About</Link>
-          <NavLink to="/about" activeClassName="active">About</NavLink>
+          <NavLink to="./pages/" activeClassName="active">About</NavLink>
           <Link to="./pages/contact.html">Contact Us</Link>
           <NavLink to="/about" activeClassName="active">Contact Us</NavLink>
           <Link to="./Products/products.jsx">Products</Link>

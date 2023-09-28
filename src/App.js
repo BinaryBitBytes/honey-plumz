@@ -1,41 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/FrontEnd/NavBar.jsx';
-import Cards from './components/FrontEnd/Products/cards.jsx';
-import Products from './components/FrontEnd/Products/products.jsx';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/FrontEnd/NavBar.jsx";
+import Cards from "./components/FrontEnd/Products/cards.jsx";
+import Products from "./components/FrontEnd/Products/products.jsx";
+import React from 'react';
 // import resetPass from './components/Authentication/resetPass';
 
 function App() {
   return (
-    <div className="App"> 
-    <>
+    <div className="App">
       <Navbar />
-    </>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, Welcome to HoneyPlumz
-        </p>
+        <p>Hello, Welcome to HoneyPlumz</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-        Honey Plumz
+          Honey Plumz
         </a>
       </header>
-      <body>
+      <main>
+        <title>Hello World</title>
+        <h1>Test</h1>
         <div>
-          <Cards /> 
-            <div>
-              <Products />
-            </div>
-
+          <Cards />
+          <Products />
         </div>
-      </body>
+      </main>
     </div>
   );
 }
 
 export default App;
+
