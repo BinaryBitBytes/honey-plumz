@@ -8,6 +8,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 `npm` - **v 9.8.0**\
 `nvm`  - **v 1.1.11**
 
+## 9.28.23 **Package Version Index**
+ ### 
+ ```
+ ***{{
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.2.2",
+    "web-vitals": "^2.1.4"
+}}***
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
