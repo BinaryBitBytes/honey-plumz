@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./components/FrontEnd/pics/Brand.jpg";
 import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
 import Cards from "./components/FrontEnd/Products/cards.jsx";
@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src="./components/FrontEnd/pics/Brand.jpg" className="App-logo" alt="logo" />
         <p>Hello, Welcome to HoneyPlumz</p>
         <a
           className="App-link"
