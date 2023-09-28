@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import vapeImages from "../pics/vapeImages.js";
+import React, { useContext } from "react";
+import { MyContextProvider } from "../../../components/FrontEnd/UX/context.js";
 
 // Define an ErrorBoundary component for error handling
 class ErrorBoundary extends React.Component {
@@ -28,12 +28,7 @@ class ErrorBoundary extends React.Component {
 // each card will access a file in the public/style folder
 // each product is sub-categorized in its respected folder based on chemical makeup
 function Cards() {
-  const [images, setImages] = useState(vapeImages);
-
-  // You can update the images whenever `vapeImages` changes
-  useEffect(() => {
-    setImages(vapeImages);
-  }, []);
+  const { images } = useContext(MyContextProvider); // Replace MyContextProvider with your actual context
 
   return (
     <div className="card-container">
