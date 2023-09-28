@@ -7,22 +7,22 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="./pages/index.html">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="./pages/about.html">About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="./pages/contact.html">Contact Us</Link>
         </li>
         <li>
-          <Link to="/products">Products</Link>
+          <Link to="./Products/products.jsx">Products</Link>
         </li>
         <li>
-          <Link to="/cart">My Cart</Link>
+          <Link to="./Log/cart.jsx">My Cart</Link>
         </li>
         <li>
-          <Link to="/login">Login</Link>
+          <Link to="./Log/cart.jsx">Login</Link>
         </li>
       </ul>
     </nav>
