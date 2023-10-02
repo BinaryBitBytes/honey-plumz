@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { MyContextProvider } from "../../../components/FrontEnd/UX/context.js";
+import { MyContextProvider } from "../UX/context.js";
 
 // Define an ErrorBoundary component for error handling
 class ErrorBoundary extends React.Component {

@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
-import CardsWithBoundary from "./components/FrontEnd/Products/cards.jsx";
-import Products from "./components/FrontEnd/Products/products.jsx";
+import CardsWithBoundary from "./components/FrontEnd/Products/Cards.jsx";
+import Products from "./components/FrontEnd/Products/Products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
 import Routes from './components/Routes/routes.js';
 
