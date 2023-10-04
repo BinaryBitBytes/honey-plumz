@@ -5,7 +5,7 @@ import Navbar from "./components/FrontEnd/NavBar.jsx";
 import CardsWithBoundary from "./components/FrontEnd/Products/Cards.jsx";
 import Products from "./components/FrontEnd/Products/Products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
-import Routes from './components/Routes/routes.js';
+import Routing from './components/Routes/routes.js';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           </a>
         </header>
         <Navbar />
-        <Routes />
+        <Routing />
         <CardsWithBoundary />
         <Products />
       </div>
