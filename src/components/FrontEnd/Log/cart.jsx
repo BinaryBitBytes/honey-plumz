@@ -7,14 +7,19 @@ function cart() {
                 <div>
                     <table>
                         <div>
-                        <colgroup span="2" style="background-color:red">
-                        <div>
-                            <col style="background-color:yellow"></col>
+                            <colgroup span="2" >
+                                <div style={{background: "red" }}>
+                                    <div>
+                                        <col style={{background:"yellow"}}>
+                                            
+                                        </col>
+                                    </div>
+                                    <div>
+                                        <col>
+                                        </col>
+                                    </div>
                                 </div>
-                        <div>
-                        <col></col>
-                        </div>
-                        </colgroup> 
+                            </colgroup> 
                         </div>  
                     </table> 
                 </div>

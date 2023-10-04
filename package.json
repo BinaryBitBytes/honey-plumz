@@ -49,6 +49,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
+    "eslint-plugin-jest-dom": "^5.1.0",
     "react-styleguidist": "^13.1.1",
     "terser-brunch": "^4.1.0",
     "webpack": "^5.88.2"
