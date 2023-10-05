@@ -23,8 +23,8 @@ function App() {
             Honey Plumz
           </a>
         </header>
-        <Navbar />
         <Routing />
+        <Navbar />
         <CardsWithBoundary />
         <Products />
       </div>

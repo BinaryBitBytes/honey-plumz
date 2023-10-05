@@ -1,7 +1,7 @@
-function login(){
+function LogIn(){
     return (
     <h3>Login:</h3>
     )
 }
 
-export default login
+export default LogIn

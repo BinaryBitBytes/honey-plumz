@@ -5,18 +5,18 @@ import About from '../FrontEnd/pages/About.jsx'; // Im                          
 import Contact from '../FrontEnd/pages/Contact.jsx'; // Import your Contact component
 import Products from '../FrontEnd/Products/Products.jsx'; // Import your Products component
 import Cart from '../FrontEnd/Log/Cart.jsx'; // Import your Cart component
-import Login from '../FrontEnd/Log/LogIn.jsx'; // Import your Login component
+import LogIn from '../FrontEnd/Log/LogIn.jsx'; // Import your Login component
 
 function Routing() {
   return (
     <div className='App'>
       <Routes>
-        <Route exact path="/" component={ <Home/> } />
-        <Route path="about" component={ <About/> } />
-        <Route path="contact" component={ <Contact/> } />
-        <Route path="products" component={ <Products/> } />
-        <Route path="cart" component={ <Cart/> } />
-        <Route path="login" component={ <Login/> } />
+        <Route exact path="/" component={ <Home /> } />
+        <Route path="about" component={ <About /> } />
+        <Route path="contact" component={ <Contact /> } />
+        <Route path="products" component={ <Products /> } />
+        <Route path="cart" component={ <Cart /> } />
+        <Route path="login" component={ <LogIn /> } />
       </Routes>
     </div>
   );
