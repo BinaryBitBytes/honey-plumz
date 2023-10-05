@@ -9,14 +9,16 @@ import Login from '../FrontEnd/Log/LogIn.jsx'; // Import your Login component
 
 function Routing() {
   return (
-    <Routes>
-      <Route exact path="/" component={Home} />
-      <Route path="about" component={About} />
-      <Route path="contact" component={Contact} />
-      <Route path="products" component={Products} />
-      <Route path="cart" component={Cart} />
-      <Route path="login" component={Login} />
-    </Routes>
+    <div className='App'>
+      <Routes>
+        <Route exact path="/" component={ <Home/> } />
+        <Route path="about" component={ <About/> } />
+        <Route path="contact" component={ <Contact/> } />
+        <Route path="products" component={ <Products/> } />
+        <Route path="cart" component={ <Cart/> } />
+        <Route path="login" component={ <Login/> } />
+      </Routes>
+    </div>
   );
 }
 
