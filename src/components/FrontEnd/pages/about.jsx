@@ -10,7 +10,7 @@ function About(){
                         <h4> How We Started</h4>
                             </div>
                                 <div>
-                                <aside> Our Mission</aside> 
+                                    <aside> Our Mission</aside> 
                                 </div>
                 </div>
             </section>
