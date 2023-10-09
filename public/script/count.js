@@ -1,11 +1,15 @@
 const counting = (count) => {
-    const count = () => {
-    for(let count=0; count<=0; count++){ 
+    var counted = () => {
+    for (let count=0; count<0; count++){ 
         count = 31;
-        console.log(count(31));
+        console.log(count);
+    
+        return 
     }
-    return
+    console.log(counted);
+    return 
     }
+   counting.counted();
+    console.log(counted)
 }
-counting(31);
 export default counting;
