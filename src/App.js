@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
 import CardsWithBoundary from "./components/FrontEnd/Products/Cards.jsx";
@@ -9,10 +9,11 @@ import Routing from './components/Routes/routes.js';
 
 function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="Honey Plumz Logo" />
           <p>Hello, Welcome to HoneyPlumz</p>
           <a
             className="App-link"
@@ -23,12 +24,15 @@ function App() {
             Honey Plumz
           </a>
         </header>
+      </div>
+      <>
         <Navbar />
         <Routing />
         <CardsWithBoundary />
         <Products />
-      </div>
-    </BrowserRouter>
+      </>
+    {/* </BrowserRouter> */}
+    </>
   );
 }
 

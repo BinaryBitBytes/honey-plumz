@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { MyContextProvider } from "../UX/context.js";
+import findImages from "../../../../Server/Function/getAllPics.js";
 
 // Define an ErrorBoundary component for error handling
 class ErrorBoundary extends React.Component {
@@ -28,11 +29,11 @@ class ErrorBoundary extends React.Component {
 // each card will access a file in the public/style folder
 // each product is sub-categorized in its respected folder based on chemical makeup
 function Cards() {
-  const { images } = useContext(MyContextProvider); // Replace MyContextProvider with your actual context
+  const { findImages } = useContext(MyContextProvider); // Replace MyContextProvider with your actual context
 
   return (
     <div className="card-container">
-      {images.map((image, index) => (
+      {findImages.map((image, index) => (
         <div key={index} className="card">
           <img src={image.src} alt={`Vape ${index + 1}`} />
           <div className="card-info">
