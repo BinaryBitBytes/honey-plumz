@@ -20,4 +20,4 @@ function findImages(directory) {
 findImages(rootFolder);
 console.log(imageFiles);
 
-export default findImages;
+export default findImages(imageFiles);

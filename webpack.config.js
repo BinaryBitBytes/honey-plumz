@@ -23,5 +23,5 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  mode: 'development', // Move the 'mode' option to the top level
 };
-
