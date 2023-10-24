@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav>
       <Link to="../../App.js">Home</Link>
-      <NavLink to="../FrontEnd/pages/about.jsx" activeclassname="active">About</NavLink>
+      <NavLink to="../FrontEnd/pages/About.jsx" activeclassname="active">About</NavLink>
       {/* <NavLink to="/contact" activeClassName="active">Contact Us</NavLink> */}
       <NavLink to="./Products/products.jsx" activeclassname="active">Products</NavLink>
       <NavLink to="./Log/cart.jsx" activeclassname="active">My Cart</NavLink>

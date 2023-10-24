@@ -3,8 +3,8 @@
 // import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
 import Routing from './components/Routes/routes.js';
-import CardsWithBoundary from "./components/FrontEnd/Products/Cards.jsx";
-import Products from "./components/FrontEnd/Products/Products.jsx";
+import CardsWithBoundary from "./components/FrontEnd/Products/cards.jsx";
+import Products from "./components/FrontEnd/Products/products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
 
 function App() {
