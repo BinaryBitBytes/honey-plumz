@@ -1,15 +1,14 @@
-import React from 'react';
+// import React from 'react';
 // import { BrowserRouter } from 'react-router-dom';
-import "./App.css";
+// import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
+import Routing from './components/Routes/routes.js';
 import CardsWithBoundary from "./components/FrontEnd/Products/Cards.jsx";
 import Products from "./components/FrontEnd/Products/Products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
-import Routing from './components/Routes/routes.js';
 
 function App() {
   return (
-    // <BrowserRouter>
     <>
       <div className="App">
         <header className="App-header">
@@ -31,9 +30,9 @@ function App() {
         <CardsWithBoundary />
         <Products />
       </>
-    {/* </BrowserRouter> */}
+    
     </>
   );
 }
-
+console.log (App())
 export default App;

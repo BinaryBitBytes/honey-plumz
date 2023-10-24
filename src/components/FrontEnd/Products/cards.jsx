@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { MyContextProvider } from "../UX/context.js";
-import findImages from "../../BackEnd/Server/getAllPics.js";
+// import findImages from "../../BackEnd/Server/getAllPics.js";
 
 // Define an ErrorBoundary component for error handling
 class ErrorBoundary extends React.Component {

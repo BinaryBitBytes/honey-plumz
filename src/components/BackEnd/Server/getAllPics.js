@@ -1,7 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-
-const rootFolder = '../../src/components/FrontEnd/pics'; // Replace with your root folder path
+// const fs = require('fs');
+import path from 'path'
+// import * as fs from 'fs';
+// import * as fs from 'node:fs';
+import  *  as fs from "node:fs";
+const rootFolder = '../../../../src/components/FrontEnd/pics'; // Replace with your root folder path
+// const rootFolder = '../../src/components/FrontEnd/pics'; // Replace with your root folder path
 const imageFiles = [];
 
 function findImages(directory) {
