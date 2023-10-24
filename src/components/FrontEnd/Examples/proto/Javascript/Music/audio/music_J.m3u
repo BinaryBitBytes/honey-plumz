@@ -1,0 +1,4 @@
+#This is my m3u file - it contains a list of songs
+    /music/title.mp3
+    http://mysite.com/music/song.mpg
+    /music/bonus.mp3

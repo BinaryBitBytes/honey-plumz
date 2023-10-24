@@ -1,12 +1,20 @@
-# Getting Started with Create React App
+# Honey Plumz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+A vendor, that is here to serve. Here at Honey Plumz LLC we are committed to serving you for your market needs. We are hoping you enjoy our site. Please feel free to:
+- Like Us
+- Share
+- Post Feedback
+- Contact Us
+- Shop With Us
 ## Version Dependancies
 
-`node` - **v 20.5.1**\
-`npm` - **v 9.8.0**\
-`nvm`  - **v 1.1.11**
+#### Branch
+ > *version:* (errorBoundry) , (ROUTER)
+ >
+
+`node` - **v 20.5.1**, **16.13.0**\
+`npm` - **v 9.8.0** , **v 8.1.0** \
+`nvm`  - **v 1.1.11**, **1.1.10**
 
 ## Available Scripts
 
@@ -44,36 +52,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### STYLE GUIDE (REACT IDE)
 

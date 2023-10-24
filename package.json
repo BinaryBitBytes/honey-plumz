@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,24 +11,38 @@
     "@types/node": "^20.6.0",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "ajv": "^8.12.0",
     "axios": "^1.5.0",
+    "clipboard-copy": "^3.2.0",
+    "esbuild": "^0.19.5",
+    "fs": "^0.0.1-security",
+    "is-buffer": "^2.0.5",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
+    "run-parallel": "^1.2.0",
     "typescript": "^5.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build brunch build -p",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon --exec babel-node App.js"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
     ]
   },
   "browserslist": {
@@ -43,10 +58,20 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "../honey-plumz/src/index.mjs",
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "eslint-plugin-jest-dom": "^5.1.0",
+    "nodemon": "^3.0.1",
     "react-styleguidist": "^13.1.1",
-    "webpack": "^5.88.2"
+    "terser-brunch": "^4.1.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   },
   "keywords": [],
   "author": "",
