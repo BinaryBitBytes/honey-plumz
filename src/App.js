@@ -10,6 +10,12 @@ import logo from "./components/FrontEnd/pics/Brand.jpg";
 function App() {
   return (
     <>
+      <>
+        <Navbar />
+        <Routing />
+        <CardsWithBoundary />
+        <Products />
+      </>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="Honey Plumz Logo" />
@@ -24,12 +30,6 @@ function App() {
           </a>
         </header>
       </div>
-      <>
-        <Navbar />
-        <Routing />
-        <CardsWithBoundary />
-        <Products />
-      </>
     
     </>
   );
