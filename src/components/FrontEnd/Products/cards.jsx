@@ -1,6 +1,4 @@
-// import React, { useContext } from "react";
 import React from "react";
-
 import { useMyContext } from "../UX/context.jsx";
 
 class ErrorBoundary extends React.Component {
@@ -30,7 +28,7 @@ function Cards() {
     <div className="card-container">
       {images.map((image, index) => (
         <div key={index} className="card">
-          <img src={image.src} alt={`Vape ${index + 1}`} />
+          <img src={image.src} alt={image.alt} />
           <div className="card-info">
             <h3>{image.title}</h3>
             <p>{image.description}</p>
