@@ -1,11 +1,13 @@
+
 // import React from 'react';
 // import { BrowserRouter } from 'react-router-dom';
 // import "./App.css";
 import Navbar from "./components/FrontEnd/NavBar.jsx";
 import Routing from './components/Routes/routes.js';
-import CardsWithBoundary from "./components/FrontEnd/Products/cards.jsx";
-import Products from "./components/FrontEnd/Products/products.jsx";
+// import CardsWithBoundary from "./components/FrontEnd/Products/cards.jsx";
+// import Products from "./components/FrontEnd/Products/products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
+import BODY from "./components/Templates/body.jsx";
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
       <>
         <Navbar />
         <Routing />
-        <CardsWithBoundary />
-        <Products />
+        <BODY />
+        {/* <Products /> */}
       </>
       <div className="App">
         <header className="App-header">

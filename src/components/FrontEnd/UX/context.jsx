@@ -36,8 +36,16 @@ export function MyContextProvider({ children }) {
 
 // Create a custom hook for using the context
 export function useMyContext() {
-  return useContext(MyContext);
+  const context = useContext(MyContext);
+  if (!context) {
+    throw new Error('useMyContext must be used within a MyContextProvider');
+  }
+  return context;
 }
+
+
+
+
 
 //!---------------------------------------------!//
 // // MyContext.js (Context definition)

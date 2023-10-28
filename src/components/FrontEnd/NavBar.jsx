@@ -4,24 +4,37 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
-      <span>
+    <nav className="NavBar">
+        <div className="Home|NavBar">
+          <Link to="../../App.js">Home</Link>
+          <div className="About|NavBar">
+            <NavLink to="../FrontEnd/pages/About.jsx" activeclassname="active">
+              About
+            </NavLink>
+          </div>
 
-      <Link to="../../App.js">Home</Link>
-      <NavLink to="../FrontEnd/pages/About.jsx" activeclassname="active">About</NavLink>
-      {/* <NavLink to="/contact" activeClassName="active">Contact Us</NavLink> */}
-      <NavLink to="./Products/products.jsx" activeclassname="active">Products</NavLink>
-      <NavLink to="./Log/cart.jsx" activeclassname="active">My Cart</NavLink>
-      <NavLink to="./Log/logIn.jsx" activeclassname="active">Login</NavLink>
-      
-      </span>
+          {/* <NavLink to="/contact" activeClassName="active">Contact Us</NavLink> */}
+          <div className="Products|NavBar">
+            <NavLink to="./Products/products.jsx" activeclassname="active">
+              Products
+            </NavLink>
+          </div>
+          <div className="Cart|NavBar">
+            <NavLink to="./Log/cart.jsx" activeclassname="active">
+              My Cart
+            </NavLink>
+          </div>
+          <div className="LogIn|NavBar">
+            <NavLink to="./Log/logIn.jsx" activeclassname="active">
+              Login
+            </NavLink>
+          </div>
+        </div>
     </nav>
   );
 }
 
 export default Navbar;
-
-
 
 // import React from "react";
 // import { Link,  NavLink} from "react-router-dom"; // If you're using React Router
