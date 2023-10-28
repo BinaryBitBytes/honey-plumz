@@ -24,6 +24,7 @@ function Routing() {
 
 export default Routing;
 
+console.log(`routes.js ran successfully`)
 // *Before changes
 
   // <Switch>

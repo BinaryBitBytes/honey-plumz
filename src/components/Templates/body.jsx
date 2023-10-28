@@ -4,16 +4,14 @@ import Products from "../FrontEnd/Products/products.jsx";
 
 function BODY() {
   return (
-    <>
-      <body className="body">
+      <section className="body">
         <div className="cards">
           <CardsWithBoundary />
         </div>
         <div className="Products">
           <Products />
         </div>
-      </body>
-    </>
+      </section>
   );
 }
 

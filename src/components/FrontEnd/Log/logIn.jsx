@@ -5,3 +5,4 @@ function login(){
 }
 
 export default login
+console.log(`login.jsx ran successfully`)

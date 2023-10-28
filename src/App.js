@@ -8,7 +8,7 @@ import Routing from './components/Routes/routes.js';
 // import Products from "./components/FrontEnd/Products/products.jsx";
 import logo from "./components/FrontEnd/pics/Brand.jpg";
 import BODY from "./components/Templates/body.jsx";
-
+console.log(BODY)
 function App() {
   return (
     <>
