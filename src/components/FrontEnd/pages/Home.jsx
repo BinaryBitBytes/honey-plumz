@@ -2,9 +2,9 @@ import React from "react";
 function Home() {
     return(
         <div>
-            <body>
+            <section>
                 <h1> Honey Plumz LLC</h1>
-            </body>
+            </section>
         </div>
     )
 }
