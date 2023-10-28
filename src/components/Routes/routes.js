@@ -11,7 +11,8 @@ function Routing() {
   return (
     <div className='App'>
       <Routes>
-        <Route exact path="/" component={ <Home/> } />
+        {/* <Route path="/" component={ <Home/> } exact /> */}
+        <Route path="/" element={<Home/>} exact />
         <Route path="about" component={ <About/> } />
         <Route path="contact" component={ <Contact/> } />
         <Route path="products" component={ <Products/> } />

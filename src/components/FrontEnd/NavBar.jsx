@@ -5,6 +5,8 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="NavBar">
+      <span>
+
         <div className="Home|NavBar">
           <Link to="../../App.js">Home</Link>
           <div className="About|NavBar">
@@ -30,6 +32,7 @@ function Navbar() {
             </NavLink>
           </div>
         </div>
+      </span>
     </nav>
   );
 }
