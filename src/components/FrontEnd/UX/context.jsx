@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
-
+import React, { createContext, useContext, useEffect, useState } from "react";
+// import * as Images from "../pics/";
 const MyContext = createContext();
 
 export function MyContextProvider({ children }) {

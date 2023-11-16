@@ -1,18 +1,12 @@
 import React from "react";
-import CardsWithBoundary from "../FrontEnd/Products/cards.jsx";
 import Products from "../FrontEnd/Products/products.jsx";
 
-function BODY() {
+export default function BODY() {
   return (
-      <section className="body">
-        <div className="cards">
-          <CardsWithBoundary />
-        </div>
-        <div className="Products">
-          <Products />
-        </div>
-      </section>
+    <section className="body">
+      <div className="Products">
+        <Products />
+      </div>
+    </section>
   );
 }
-
-export default BODY;

@@ -1,4 +1,4 @@
-function contact(){
+export default function contact(){
     return(
         <div>
             <section>
@@ -12,4 +12,3 @@ function contact(){
     )
 }
 
-export default contact;

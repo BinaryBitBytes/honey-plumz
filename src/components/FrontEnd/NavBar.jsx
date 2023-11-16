@@ -2,42 +2,44 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="NavBar">
-      <span>
+    <>
+      <nav className="NavBar">
+        <span>
+          <div className="Home|NavBar">
+            <Link to="../../App.js">Home</Link>
+            <div className="About|NavBar">
+              <NavLink
+                to="../FrontEnd/pages/About.jsx"
+                activeclassname="active"
+              >
+                About
+              </NavLink>
+            </div>
 
-        <div className="Home|NavBar">
-          <Link to="../../App.js">Home</Link>
-          <div className="About|NavBar">
-            <NavLink to="../FrontEnd/pages/About.jsx" activeclassname="active">
-              About
-            </NavLink>
+            {/* <NavLink to="/contact" activeClassName="active">Contact Us</NavLink> */}
+            <div className="Products|NavBar">
+              <NavLink to="./Products/products.jsx" activeclassname="active">
+                Products
+              </NavLink>
+            </div>
+            <div className="Cart|NavBar">
+              <NavLink to="./Log/cart.jsx" activeclassname="active">
+                My Cart
+              </NavLink>
+            </div>
+            <div className="SignIn|NavBar">
+              <NavLink to="./Log/SignIn.jsx" activeclassname="active">
+                Login
+              </NavLink>
+            </div>
           </div>
-
-          {/* <NavLink to="/contact" activeClassName="active">Contact Us</NavLink> */}
-          <div className="Products|NavBar">
-            <NavLink to="./Products/products.jsx" activeclassname="active">
-              Products
-            </NavLink>
-          </div>
-          <div className="Cart|NavBar">
-            <NavLink to="./Log/cart.jsx" activeclassname="active">
-              My Cart
-            </NavLink>
-          </div>
-          <div className="LogIn|NavBar">
-            <NavLink to="./Log/logIn.jsx" activeclassname="active">
-              Login
-            </NavLink>
-          </div>
-        </div>
-      </span>
-    </nav>
+        </span>
+      </nav>
+    </>
   );
 }
-
-export default Navbar;
 
 // import React from "react";
 // import { Link,  NavLink} from "react-router-dom"; // If you're using React Router
