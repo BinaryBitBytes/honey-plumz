@@ -3,7 +3,7 @@ import { red } from "@mui/material/colors";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 // import Navbar from "./components/FrontEnd/NavBar.jsx";
 import Routing from "./components/Routes/routes.js";
-import BODY from "./components/Templates/body.jsx";
+// import BODY from "./components/Templates/body.jsx";
 // import CardsWithBoundary from "./components/FrontEnd/Products/cards.jsx";
 // import logo from "./components/FrontEnd/pics/Brand.jpg";
 // import { BrowserRouter } from 'react-router-dom';
@@ -17,15 +17,19 @@ const theme = createTheme({
   },
 });
 
-function App() {
+export default function App() {
   return (
     // <>
-    <ThemeProvider id="root" theme={theme}>
-      <Routing>
-        <BODY>{/* <Navbar /> */}</BODY>
-      </Routing>
-    </ThemeProvider>
-
+    <>
+      {/* <ThemeProvider id="root" theme={theme}> */}
+      <ThemeProvider theme={theme}>
+        <Routing>
+          {/* <BODY>
+          <Navbar />
+        </BODY> */}
+        </Routing>
+      </ThemeProvider>
+    </>
     /*      <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="Honey Plumz Logo" />
@@ -45,7 +49,3 @@ function App() {
 */
   );
 }
-export default App;
-
-console.log(App());
-console.log(BODY);
