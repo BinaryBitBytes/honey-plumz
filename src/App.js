@@ -19,33 +19,33 @@ const theme = createTheme({
 
 export default function App() {
   return (
-    // <>
     <>
       {/* <ThemeProvider id="root" theme={theme}> */}
       <ThemeProvider theme={theme}>
-        <Routing>
-          {/* <BODY>
+        <Routing></Routing>
+      </ThemeProvider>
+      {/* <BODY>
           <Navbar />
         </BODY> */}
-        </Routing>
-      </ThemeProvider>
     </>
-    /*      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="Honey Plumz Logo" />
-          <p>Hello, Welcome to HoneyPlumz</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Honey Plumz
-          </a>
-        </header>
-      </div>
-
-    </>
-*/
   );
 }
+
+// <>
+/*      <div className="App">
+<header className="App-header">
+  <img src={logo} className="App-logo" alt="Honey Plumz Logo" />
+  <p>Hello, Welcome to HoneyPlumz</p>
+  <a
+    className="App-link"
+    href="https://reactjs.org"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Honey Plumz
+  </a>
+</header>
+</div>
+
+</>
+*/

@@ -5,7 +5,7 @@ export default function BODY() {
   return (
     <>
       <section className="body">
-        <div className="Products">
+        <div className="Products" id="PRODUCTS">
           <Products />
         </div>
       </section>
