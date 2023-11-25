@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 function vapeImages(r) {
   let images = {};
@@ -12,7 +12,17 @@ const images = vapeImages(
   require.context("./images", false, /\.(png|jpe?g|svg)$/)
 );
 
-<img alt="Images" src={images["doggy.png"]} />;
+function loadImages() {
+  return React.Fragment(
+    <>
+      <div>
+        <img alt="Images" src={images["doggy.png"]} />;
+      </div>
+    </>
+  );
+}
+
+console.log(loadImages());
 //! ----------------------------------------------------------------
 
 // function vapeImages() {
